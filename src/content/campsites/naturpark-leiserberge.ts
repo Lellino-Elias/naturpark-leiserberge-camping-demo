@@ -98,9 +98,9 @@ const naturparkLeiserberge: CampsiteConfig = {
         image: { src: `${IMG}/gallery-d82a9368c9.webp`, alt: "Hölzerne Aussichtswarte am Oberleiserberg mit geschnitzten Leiser-Berge-Sesseln" },
       },
       {
-        title: "Nostalgieexpress Leiser Berge",
-        text: "Mit dem historischen Dieselzug gemütlich von Wien über Korneuburg nach Ernstbrunn und in die Leiser Berge fahren.",
-        image: { src: `${IMG}/gallery-cfe9cc497c.webp`, alt: "Dampflokomotive des Nostalgieexpress Leiser Berge in der Landschaft" },
+        title: "Jakobsweg Weinviertel",
+        text: "Der Jakobsweg Weinviertel führt durch die sanften Hügel und Kellergassen der Region — ein Pilger- und Wanderweg direkt vor der Haustür.",
+        image: { src: `${IMG}/gallery-c90404786b.webp`, alt: "Wanderer mit Trekking-Stöcken auf dem Jakobsweg Weinviertel, im Hintergrund eine Weinviertler Kapelle auf dem Hügel" },
       },
       {
         title: "Weinvierteldraisine",
