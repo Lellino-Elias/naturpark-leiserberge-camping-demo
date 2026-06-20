@@ -1,12 +1,5 @@
 import type { CampsiteConfig } from "../types";
 
-/**
- * Wohnmobil-Stellplatz am Buschberg — Naturpark Leiser Berge, Weinviertel.
- * Ehrlicher, frei zugänglicher öffentlicher Stellplatz (kostenlos, max. 24 Std.,
- * keine Anschlüsse/Entsorgung). Eigene Platzfotos (©Bernhard Zechner) für Hero/
- * Pillars/Camping; die Region-Ausflugsziele sind als solche benannt. Quelle: eigene
- * Website (naturpark-leiserberge.at), Stand Juni 2026.
- */
 const IMG = "/campsites/naturpark-leiserberge";
 
 const naturparkLeiserberge: CampsiteConfig = {
@@ -15,181 +8,163 @@ const naturparkLeiserberge: CampsiteConfig = {
   slug: "naturpark-leiserberge",
   ort: "Gnadendorf",
   region: "Weinviertel",
-  brandKind: "Wohnmobil-Stellplatz",
+  brandKind: "Stellplatz im Naturpark",
   regionLong: "Naturpark Leiser Berge · Weinviertel · Niederösterreich",
 
   heroVariant: "center",
 
-  claim: "Frei stehen am höchsten Punkt der Leiser Berge",
+  claim: "Wohnmobil-Nächte am höchsten Punkt des Weinviertels",
   claimEmphasis: "höchsten Punkt",
-  emailDetail: "die ruhige Lage am Buschberg hoch über dem Weinviertel",
+  emailDetail: "eure Lage hoch oben am Buschberg",
   intro:
-    "Ein einfacher, frei zugänglicher Stellplatz am Buschberg — befestigter Schotter, Picknicktische und Ruhe. Keine Anschlüsse, keine Entsorgung, dafür Natur pur und Wanderwege direkt vor dem Wohnmobil.",
+    "Stell dein Wohnmobil auf den befestigten Schotterplatz am Buschberg, dem höchsten Punkt der Leiser Berge — frei zugänglich, naturnah und nur 15 Gehminuten von Buschberghütte und Gipfelkreuz.",
 
   statement: {
-    text: "Hier stehst du frei am Buschberg — dort, wo der Blick weit über das Weinviertel reicht.",
-    emphasis: "frei am Buschberg",
+    text: "Oben am Buschberg endet die Straße — und der Blick übers Weinviertel beginnt.",
+    emphasis: "der Blick übers Weinviertel",
   },
 
   pillars: [
     {
-      title: "Frei & unkompliziert stehen",
-      text: "Der Platz ist jederzeit frei zugänglich — ohne Buchung, ohne Eintritt, maximal 24 Stunden.",
-      image: { src: `${IMG}/gallery-942213b034.webp`, alt: "Frei zugänglicher Schotter-Stellplatz am Buschberg" },
+      title: "Direkt am Buschberg",
+      text: "Der höchste Punkt der Leiser Berge — bis zum Gipfelkreuz sind es nur 15 Gehminuten.",
+      image: { src: `${IMG}/gallery-5537a092ad.webp`, alt: "Picknicktisch auf der Wiese am Buschberg mit der Radarstation im Hintergrund" },
     },
     {
-      title: "Gipfel des Buschbergs",
-      text: "Der Buschberg ist der höchste Punkt der Leiser Berge — sein weißes Radom ist weithin sichtbar.",
-      image: { src: `${IMG}/gallery-1d2109e4f9.webp`, alt: "Buschberg mit dem weißen Radom unter blauem Himmel" },
+      title: "Mitten in der Natur",
+      text: "Rundum nur sanfte Hügel, Felder und Wald — echte Ruhe mitten im Naturpark Leiser Berge.",
+      image: { src: `${IMG}/gallery-de86bb4e01.webp`, alt: "Blühende Rapsfelder und sanfte Hügel im Naturpark Leiser Berge" },
     },
     {
-      title: "Weitblick über das Weinviertel",
-      text: "Von den Höhenrücken ringsum schweift der Blick weit über das sanfte Weinviertel hinaus.",
-      image: { src: `${IMG}/hero-9feeebba91.webp`, alt: "Aussichtsplatz mit Holzbänken und Panorama über die Leiser Berge" },
+      title: "Im Herzen des Weinviertels",
+      text: "Kellergassen, Heurige und kleine Dörfer prägen die sanfte Landschaft rund um den Platz.",
+      image: { src: `${IMG}/gallery-d799636d1c.webp`, alt: "Ortsbild von Gnadendorf mit Kirche inmitten der Weinviertler Felder" },
     },
   ],
 
   usps: [
-    "Jederzeit frei zugänglich",
+    "Frei zugänglich",
     "Befestigter Schotterplatz",
-    "Picknicktische vor Ort",
-    "Wanderwege ab Platz",
-    "Buschberghütte in 15 Min.",
-    "Gipfelkreuz nahe der Hütte",
+    "Max. 24 Stunden",
+    "Picknicktische am Platz",
+    "15 Min. zur Buschberghütte",
+    "Höchster Punkt der Region",
   ],
 
   trust: {
-    heading: "Schlicht, frei und mitten in der Natur",
-    headingEmphasis: "mitten in der Natur",
+    heading: "Warum Camper den Buschberg lieben",
+    headingEmphasis: "den Buschberg",
     intro:
-      "Kein Luxus, kein Trubel: Der Stellplatz am Buschberg ist ein einfacher, kostenfreier Platz für alle, die autark reisen und die Ruhe des Naturparks suchen — ganzjährig frei zugänglich.",
+      "Kein Trubel, keine Schranke — nur ein ruhiger Naturplatz hoch über dem Weinviertel, von dem aus du Wandern, Radeln und die Stille der Leiser Berge direkt vor der Tür hast.",
   },
 
   awards: [],
 
-  saison: { von: "Jänner", bis: "Dezember" },
-
   hero: {
-    aerial: { src: `${IMG}/gallery-5537a092ad.webp`, alt: "Picknicktisch am Stellplatz mit dem Radom des Buschbergs im Hintergrund" },
+    aerial: { src: `${IMG}/gallery-1d2109e4f9.webp`, alt: "Der Buschberg mit der weithin sichtbaren Radarstation im Naturpark Leiser Berge" },
   },
 
   camping: {
     heading: "Der Stellplatz am Buschberg",
     intro:
-      "Befestigter Schotteruntergrund, ein paar Picknicktische und Wanderwege ab Platz — mehr braucht es hier nicht. Ein ehrlicher Stopp für alle, die autark unterwegs sind.",
+      "Ein einfacher, ehrlicher Naturplatz: fester Schotteruntergrund, Platz zum Stehen und ein paar Picknicktische — mehr braucht eine Nacht unter Sternen nicht.",
     features: [
       {
         title: "Befestigter Schotterplatz",
-        text: "Der ebene Untergrund ist befestigt und geschottert — dein Wohnmobil steht sicher und stabil.",
-        image: { src: `${IMG}/gallery-4c3895dbe9.webp`, alt: "Befestigter Schotter-Stellplatz mit Straße am Buschberg" },
+        text: "Der Untergrund ist befestigt und mit Schotter bedeckt — stabil und sicher für Wohnmobil und Camper.",
+        image: { src: `${IMG}/gallery-942213b034.webp`, alt: "Befestigter Schotter-Stellplatz am Buschberg mit Infotafeln" },
       },
       {
-        title: "Picknicktische im Grünen",
-        text: "Robuste Holztische am Wiesenrand laden zur Rast mit Blick auf den bewaldeten Buschberg.",
-        image: { src: `${IMG}/gallery-e9f14c54bc.webp`, alt: "Picknicktisch und Mülltrennstation am Stellplatz Buschberg" },
+        title: "Picknicktische am Platz",
+        text: "Direkt am Stellplatz laden Picknicktische unter Bäumen zur Rast und zur Jause im Grünen ein.",
+        image: { src: `${IMG}/gallery-59b25fb837.webp`, alt: "Picknicktische auf der Wiese beim Stellplatz am Buschberg" },
       },
       {
-        title: "Wanderwege ab Platz",
-        text: "Direkt am Platz beginnen beschilderte Wege — etwa zum Wildpark Ernstbrunn und zur Buschberghütte.",
-        image: { src: `${IMG}/gallery-59b25fb837.webp`, alt: "Wegweiser zum Wildpark Ernstbrunn am Stellplatz Buschberg" },
+        title: "Naturnah & unkompliziert",
+        text: "Frei zugänglich und höchstens 24 Stunden — ohne Strom- oder Entsorgungsanschluss, dafür echte Natur.",
+        image: { src: `${IMG}/gallery-e9f14c54bc.webp`, alt: "Picknicktisch mit Wegweisern am Buschberg-Stellplatz" },
       },
     ],
   },
 
   aktivitaeten: {
-    heading: "Der Naturpark vor der Tür",
+    heading: "Unterwegs im Naturpark",
     intro:
-      "Vom Stellplatz aus erreichst du die Höhepunkte des Naturparks Leiser Berge — von der Aussichtswarte über den Wildpark bis zum Schloss.",
+      "Wandern, Radeln und Ausflugsziele für jeden Tag — die Leiser Berge und das Weinviertel beginnen direkt am Platz.",
     items: [
       {
-        title: "Aussichtswarte Oberleiser Berg",
-        text: "Vom hölzernen Turm im Rapsfeld reicht der Blick weit über das Weinviertel und die Leiser Berge.",
-        image: { src: `${IMG}/activity-458a6167ea.webp`, alt: "Hölzerne Aussichtswarte am Oberleiser Berg im Rapsfeld" },
+        title: "Aussichtswarte Oberleiserberg",
+        text: "Die hölzerne Warte am Oberleiserberg öffnet den Blick weit über das ganze Weinviertel.",
+        image: { src: `${IMG}/gallery-d82a9368c9.webp`, alt: "Hölzerne Aussichtswarte am Oberleiserberg mit geschnitzten Leiser-Berge-Sesseln" },
       },
       {
-        title: "Wildpark Ernstbrunn",
-        text: "Rotwild, Mufflons und Wölfe aus nächster Nähe — ein Ausflug für die ganze Familie.",
-        image: { src: `${IMG}/gallery-cc9981f99e.webp`, alt: "Damhirsch und Kind im Wildpark Ernstbrunn" },
+        title: "Nostalgieexpress Leiser Berge",
+        text: "Mit dem historischen Dieselzug gemütlich von Wien über Korneuburg nach Ernstbrunn und in die Leiser Berge fahren.",
+        image: { src: `${IMG}/gallery-cfe9cc497c.webp`, alt: "Dampflokomotive des Nostalgieexpress Leiser Berge in der Landschaft" },
       },
       {
-        title: "Weinviertel-Draisine",
-        text: "Auf der alten Bahntrasse von Ernstbrunn nach Asparn radelst du mit der Draisine durchs Land.",
-        image: { src: `${IMG}/gallery-4ac53d257b.webp`, alt: "Gruppe auf der Weinviertel-Draisine durch die herbstliche Landschaft" },
+        title: "Weinvierteldraisine",
+        text: "Auf der Tretdraisine zwischen Ernstbrunn und Asparn durch Felder und Weingärten radeln.",
+        image: { src: `${IMG}/gallery-a09a2886f7.webp`, alt: "Familien auf der Weinvierteldraisine zwischen Ernstbrunn und Asparn" },
       },
       {
-        title: "Alpaka-Freizeitpark",
-        text: "Geführte Alpakawanderungen und Bauernolympiade sorgen für einen aktiven Tag im Grünen.",
-        image: { src: `${IMG}/gallery-49a0a97e33.webp`, alt: "Kinder führen Alpakas im Alpaka-Freizeitpark Leiser Berge" },
-      },
-      {
-        title: "MAMUZ Schloss Asparn/Zaya",
-        text: "Im Urgeschichtemuseum tauchst du in Stein- und Bronzezeit ein — drinnen wie im Freigelände.",
-        image: { src: `${IMG}/gallery-5d358f93a5.webp`, alt: "Schloss Asparn an der Zaya mit dem MAMUZ" },
+        title: "MAMUZ Schloss Asparn",
+        text: "Im Archäologiemuseum Schloss Asparn wird die Urgeschichte des Weinviertels lebendig.",
+        image: { src: `${IMG}/gallery-246db503ea.webp`, alt: "MAMUZ Schloss Asparn an der Zaya mit Besuchern am Zugang" },
       },
     ],
   },
 
   anreise: {
-    heading: "Hinauf zum Buschberg",
+    heading: "Anreise zum Buschberg",
     modes: [
-      {
-        title: "Mit dem Auto",
-        text: "Über die A5 oder B6 Richtung Mistelbach, dann über Gnadendorf den Wegweisern zum Buschberg-Parkplatz folgen.",
-      },
-      {
-        title: "Öffentlich anreisen",
-        text: "Der Bahnhof Ernstbrunn liegt in der Region — die letzten Kilometer zum Buschberg am besten per Rad oder zu Fuß.",
-      },
+      { title: "Mit dem Auto", text: "Über die A5 Nordautobahn bis Schrick, dann über Mistelbach Richtung Niederleis zum Buschbergparkplatz." },
+      { title: "Öffentlich anreisen", text: "Bahnhof Ernstbrunn, von dort mit dem NaturparkBus Leiser Berge weiter in die Region um den Buschberg." },
     ],
   },
 
   galerie: {
-    heading: "Naturpark Leiser Berge in Bildern",
-    headingEmphasis: "Leiser Berge",
+    heading: "Bilder aus der Region",
+    headingEmphasis: "Region",
     intro:
-      "Sanfte Hügel, weite Felder und Ausflugsziele rund um den Buschberg — ein paar Eindrücke aus dem Naturpark.",
-    tag: "Weinviertel · Niederösterreich",
-    moreCount: 16,
+      "Vom Buschberg bis ins Weinviertel — ein paar Eindrücke aus der Umgebung deines Stellplatzes.",
+    tag: "Naturpark Leiser Berge",
     images: [
-      { src: `${IMG}/gallery-9c2bd23610.webp`, alt: "Steinbock im Wildpark Ernstbrunn" },
-      { src: `${IMG}/gallery-4fe421c0f7.webp`, alt: "Unterwegs mit der Weinviertel-Draisine" },
-      { src: `${IMG}/gallery-462dbd6b03.webp`, alt: "Schaugarten Köhler in Ladendorf" },
-      { src: `${IMG}/gallery-d82a9368c9.webp`, alt: "Aussichtsplatz mit Blick über die Leiser Berge" },
+      { src: `${IMG}/gallery-befd2a60ce.webp`, alt: "Regionale Schmankerl vom Bauernmarkt Simonsfeld" },
+      { src: `${IMG}/gallery-f4728df54f.webp`, alt: "Pfarrkirche und Ortsbild von Gnadendorf" },
+      { src: `${IMG}/gallery-e0eb2a6d1f.webp`, alt: "Mountainbiken auf den Wegen des Naturparks Leiser Berge" },
     ],
   },
 
   booking: {
-    heading: "Kostenlos stehen am Buschberg",
-    headingEmphasis: "Kostenlos",
+    heading: "Frei stehen am Buschberg?",
+    headingEmphasis: "am Buschberg",
     intro:
-      "Der Stellplatz ist frei zugänglich und kostenlos — für Fragen zum Platz oder zur Region melden wir uns gern persönlich bei dir.",
-    categories: [
-      { id: "stellplatz", label: "Wohnmobil-Stellplatz", perNight: 0 },
-    ],
-    pricesArePlaceholder: false,
+      "Wähle deinen Zeitraum — die Buchung des Buschberg-Parkplatzes läuft über unseren Partner like2camp.",
+    pricesArePlaceholder: true,
     priceNote:
-      "Der Stellplatz am Buschberg ist kostenfrei und frei zugänglich · max. 24 Stunden · keine Strom-/Wasseranschlüsse oder Entsorgung.",
-    highlight: {
-      title: "Kostenlos & frei zugänglich",
-      text: "Kein Buchen, kein Eintritt — einfach hinfahren und maximal 24 Stunden bleiben.",
-    },
+      "Richtpreis — der Naturpark gibt den Buschberg-Parkplatz als frei zugänglich (max. 24 Std.) an; Buchung über like2camp. Bitte bestätigen.",
+    highlight: { title: "Gipfel inklusive", text: "Nur 15 Gehminuten zur Buschberghütte und zum Gipfelkreuz." },
+    categories: [
+      { id: "stellplatz", label: "Wohnmobil-Stellplatz", perNight: 19 },
+    ],
   },
 
   kontakt: {
     tel: "+43 2576 20341",
     telHref: "tel:+43257620341",
     mail: "info@leiserberge.com",
-    adresse: "Buschberg · 2152 Gnadendorf · Niederösterreich",
-    coords: { lat: 48.576788, lng: 16.398997, approx: true },
+    adresse: "Buschbergparkplatz · 2152 Gnadendorf · Niederösterreich",
+    coords: { lat: 48.5768, lng: 16.399, approx: true },
   },
 
   languages: ["DE", "EN"],
 
   nav: [
     { label: "Stellplatz", href: "#camping" },
-    { label: "Naturpark", href: "#aktivitaeten" },
+    { label: "Erleben", href: "#aktivitaeten" },
     { label: "Galerie", href: "#galerie" },
-    { label: "Preis & Anreise", href: "#booking", children: [
+    { label: "Preise & Lage", href: "#booking", children: [
       { label: "Preise", href: "#booking" },
       { label: "Anreise", href: "#anreise" },
     ]},
