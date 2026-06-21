@@ -79,11 +79,6 @@ const naturparkLeiserberge: CampsiteConfig = {
         text: "Direkt am Stellplatz laden Picknicktische unter Bäumen zur Rast und zur Jause im Grünen ein.",
         image: { src: `${IMG}/gallery-59b25fb837.webp`, alt: "Picknicktische auf der Wiese beim Stellplatz am Buschberg" },
       },
-      {
-        title: "Naturnah & unkompliziert",
-        text: "Frei zugänglich und höchstens 24 Stunden — ohne Strom- oder Entsorgungsanschluss, dafür echte Natur.",
-        image: { src: `${IMG}/gallery-e9f14c54bc.webp`, alt: "Picknicktisch mit Wegweisern am Buschberg-Stellplatz" },
-      },
     ],
   },
 
