@@ -98,11 +98,6 @@ const naturparkLeiserberge: CampsiteConfig = {
         image: { src: `${IMG}/gallery-c90404786b.webp`, alt: "Wanderer mit Trekking-Stöcken auf dem Jakobsweg Weinviertel, im Hintergrund eine Weinviertler Kapelle auf dem Hügel" },
       },
       {
-        title: "Weinvierteldraisine",
-        text: "Auf der Tretdraisine zwischen Ernstbrunn und Asparn durch Felder und Weingärten radeln.",
-        image: { src: `${IMG}/gallery-a09a2886f7.webp`, alt: "Familien auf der Weinvierteldraisine zwischen Ernstbrunn und Asparn" },
-      },
-      {
         title: "MAMUZ Schloss Asparn",
         text: "Im Archäologiemuseum Schloss Asparn wird die Urgeschichte des Weinviertels lebendig.",
         image: { src: `${IMG}/gallery-246db503ea.webp`, alt: "MAMUZ Schloss Asparn an der Zaya mit Besuchern am Zugang" },
@@ -127,7 +122,7 @@ const naturparkLeiserberge: CampsiteConfig = {
     images: [
       { src: `${IMG}/gallery-befd2a60ce.webp`, alt: "Regionale Schmankerl vom Bauernmarkt Simonsfeld" },
       { src: `${IMG}/gallery-f4728df54f.webp`, alt: "Pfarrkirche und Ortsbild von Gnadendorf" },
-      { src: `${IMG}/gallery-e0eb2a6d1f.webp`, alt: "Mountainbiken auf den Wegen des Naturparks Leiser Berge" },
+      { src: `${IMG}/gallery-e0eb2a6d1f.webp`, alt: "Radfahrer auf einem Feldweg der Leiserbergeblick-Runde im Naturpark Leiser Berge" },
     ],
   },
 
