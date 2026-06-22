@@ -28,7 +28,7 @@ const naturparkLeiserberge: CampsiteConfig = {
     {
       title: "Direkt am Buschberg",
       text: "Der höchste Punkt der Leiser Berge — bis zum Gipfelkreuz sind es nur 15 Gehminuten.",
-      image: { src: `${IMG}/gallery-5537a092ad.webp`, alt: "Picknicktisch auf der Wiese am Buschberg mit der Radarstation im Hintergrund" },
+      image: { src: `${IMG}/gallery-1d2109e4f9.webp`, alt: "Blick zum Buschberg mit der weithin sichtbaren Radarstation — höchster Punkt der Leiser Berge" },
     },
     {
       title: "Mitten in der Natur",
@@ -38,7 +38,7 @@ const naturparkLeiserberge: CampsiteConfig = {
     {
       title: "Im Herzen des Weinviertels",
       text: "Kellergassen, Heurige und kleine Dörfer prägen die sanfte Landschaft rund um den Platz.",
-      image: { src: `${IMG}/gallery-d799636d1c.webp`, alt: "Ortsbild von Gnadendorf mit Kirche inmitten der Weinviertler Felder" },
+      image: { src: `${IMG}/gallery-85a3a13a46.webp`, alt: "Wanderer auf dem Jakobsweg durch eine sonnige Kellergasse im Weinviertel" },
     },
   ],
 
@@ -61,7 +61,7 @@ const naturparkLeiserberge: CampsiteConfig = {
   awards: [],
 
   hero: {
-    aerial: { src: `${IMG}/gallery-1d2109e4f9.webp`, alt: "Der Buschberg mit der weithin sichtbaren Radarstation im Naturpark Leiser Berge" },
+    aerial: { src: `${IMG}/gallery-5537a092ad.webp`, alt: "Wohnmobil-Stellplatz am Buschberg mit Picknicktisch und Blick auf die Radarstation im Naturpark Leiser Berge" },
   },
 
   camping: {
@@ -120,8 +120,8 @@ const naturparkLeiserberge: CampsiteConfig = {
       "Vom Buschberg bis ins Weinviertel — ein paar Eindrücke aus der Umgebung deines Stellplatzes.",
     tag: "Naturpark Leiser Berge",
     images: [
-      { src: `${IMG}/gallery-befd2a60ce.webp`, alt: "Regionale Schmankerl vom Bauernmarkt Simonsfeld" },
-      { src: `${IMG}/gallery-f4728df54f.webp`, alt: "Pfarrkirche und Ortsbild von Gnadendorf" },
+      { src: `${IMG}/gallery-a09a2886f7.webp`, alt: "Familien auf der Weinviertel-Draisine durch die sommerliche Landschaft der Leiser Berge" },
+      { src: `${IMG}/gallery-cfe9cc497c.webp`, alt: "Nostalgieexpress Leiser Berge bei der Fahrt durch das sommerliche Weinviertel" },
       { src: `${IMG}/gallery-e0eb2a6d1f.webp`, alt: "Radfahrer auf einem Feldweg der Leiserbergeblick-Runde im Naturpark Leiser Berge" },
     ],
   },
