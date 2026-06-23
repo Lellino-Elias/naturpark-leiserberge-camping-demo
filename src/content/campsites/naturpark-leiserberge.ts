@@ -120,7 +120,7 @@ const naturparkLeiserberge: CampsiteConfig = {
       "Vom Buschberg bis ins Weinviertel — ein paar Eindrücke aus der Umgebung deines Stellplatzes.",
     tag: "Naturpark Leiser Berge",
     images: [
-      { src: `${IMG}/gallery-a09a2886f7.webp`, alt: "Familien auf der Weinviertel-Draisine durch die sommerliche Landschaft der Leiser Berge" },
+      { src: `${IMG}/gallery-d799636d1c.webp`, alt: "Blick auf Gnadendorf mit Pfarrkirche und sanften Hügeln des Weinviertels" },
       { src: `${IMG}/gallery-cfe9cc497c.webp`, alt: "Nostalgieexpress Leiser Berge bei der Fahrt durch das sommerliche Weinviertel" },
       { src: `${IMG}/gallery-e0eb2a6d1f.webp`, alt: "Radfahrer auf einem Feldweg der Leiserbergeblick-Runde im Naturpark Leiser Berge" },
     ],
